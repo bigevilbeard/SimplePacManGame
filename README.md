@@ -4,6 +4,9 @@ A classic Pacman arcade game built with Python and Pygame. Navigate through the 
 
 ![Pacman Game Screenshot](pacman_image.png)
 
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=bigevilbeard/SimplePacManGame)
+
 ## Features
 
 - Classic Pacman gameplay mechanics
@@ -20,6 +23,8 @@ A classic Pacman arcade game built with Python and Pygame. Navigate through the 
 
 ## Installation
 
+### Local Setup
+
 1. Clone this repository:
    ```
    git clone https://github.com/yourusername/pacman-game.git
@@ -35,6 +40,20 @@ A classic Pacman arcade game built with Python and Pygame. Navigate through the 
    ```
    python pacman_game.py
    ```
+
+### Using GitHub Codespaces
+
+You can run this game directly in your browser using GitHub Codespaces:
+
+1. Click the "Open in GitHub Codespaces" button at the top of this README
+2. Wait for the Codespace to initialize
+3. Once ready, open a terminal and run:
+   ```
+   pip install pygame
+   python pacman_game.py
+   ```
+
+Note: To play the game in Codespaces, you'll need to use the "Simple Browser" or port forwarding if the game uses a web interface. For the standard Pygame version, you may need to use X11 forwarding or VNC to see the graphical output.
 
 ## How to Play
 
@@ -77,6 +96,27 @@ The game is built using Pygame and consists of several key components:
 - Pacman and Ghost classes
 - Maze rendering and collision detection
 - Game loop and event handling
+
+## Development with GitHub Codespaces
+
+This repository is configured for GitHub Codespaces, which provides a complete, preconfigured development environment in the cloud.
+
+### Benefits of using Codespaces:
+
+- No local setup required - start coding instantly
+- Consistent development environment for all contributors
+- Run the game directly in the cloud
+- Access your development environment from any device with a browser
+
+### Codespaces Configuration
+
+The repository includes a `.devcontainer/devcontainer.json` file that:
+- Sets up a Python environment
+- Installs Pygame automatically
+- Configures VS Code with Python extensions
+- Sets up port forwarding
+
+To view the graphical output in Codespaces, you may need to use X11 forwarding or a VNC setup. For advanced users, you can modify the devcontainer configuration to include these capabilities.
 
 ## Customization
 
