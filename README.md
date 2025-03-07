@@ -2,7 +2,7 @@
 
 A classic Pacman arcade game built with Python and Pygame. Navigate through the maze, collect dots, and avoid the ghosts!
 
-![Pacman Game Screenshot](screenshot.png)
+![Pacman Game Screenshot](pacman_image.png)
 
 ## Features
 
